@@ -1,3 +1,9 @@
-
-
-
+require "pry"
+<%= @team.name %>
+binding.pry
+<%= @team.motto %>
+<% SuperHero.all.each do |sh|%>
+<%= sh.name%>
+<%= sh.power%>
+<%= sh.bio %>
+<%end%>
